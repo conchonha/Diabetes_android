@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontsize_edittext">16dp</dimen>
+    <dimen name="fontsize_title_widget">18dp</dimen>
+    <dimen name="fontsize_appbar">22dp</dimen>
+    <dimen name="fontsize_calendar">50dp</dimen>
+</resources>

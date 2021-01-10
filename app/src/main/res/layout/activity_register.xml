@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegisterActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@color/colorPrimary">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imgback"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_back"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Wellcome to app"
+                android:gravity="center"
+                android:textSize="@dimen/fontsize_title_widget"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginTop="100dp"
+                app:cardElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+                            android:scaleType="fitXY"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="-10dp"
+                            android:src="@drawable/img_splast" />
+
+                    </LinearLayout>
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_below="@+id/linearLayout1"
+                        android:layout_marginTop="-10dp"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_marginTop="40dp">
+
+                                <ImageView
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:background="@color/colorRegister"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/ic_name"
+                                    android:padding="8dp"
+                                    />
+
+                                <EditText
+                                    android:id="@+id/edtFullName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/editTextBG"
+                                    android:hint="名前"
+                                    android:paddingLeft="20dp"
+                                    android:textSize="15sp" />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_marginTop="20dp">
+
+                                <ImageView
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/ic_age"
+                                    android:background="@color/colorRegister"
+                                    android:padding="8dp"
+                                    />
+
+                                <EditText
+                                    android:id="@+id/edtAge"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/editTextBG"
+                                    android:hint="年齢"
+                                    android:inputType="number"
+                                    android:paddingLeft="20dp"
+                                    android:textSize="15sp" />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/relativeLayout8"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_marginTop="20dp">
+
+                                <ImageView
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:padding="8dp"
+                                    android:background="@color/colorRegister"
+                                    android:src="@drawable/ic_sex"
+                                    />
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <EditText
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/editTextBG"
+                                        android:id="@+id/edtIndentityCard"
+                                        android:enabled="false"
+                                        android:inputType="number"
+                                        android:paddingLeft="20dp"
+                                        android:textSize="15sp" />
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_height="match_parent">
+
+                                        <CheckBox
+                                            android:id="@+id/checkboxMale"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:text="男"
+                                            android:textColor="#808080" />
+
+                                        <CheckBox
+                                            android:id="@+id/checkboxGir"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginLeft="20dp"
+                                            android:text="女"
+                                            android:textColor="#808080" />
+                                    </LinearLayout>
+                                </RelativeLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_marginTop="20dp">
+
+                                <ImageView
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/ic_date"
+                                    android:padding="8dp"
+                                    android:background="@color/colorRegister"
+                                    />
+
+                                <EditText
+                                    android:id="@+id/edtDateOfBirth"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/editTextBG"
+                                    android:clickable="true"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:hint="生年月日"
+                                    android:inputType="text"
+                                    android:paddingLeft="20dp"
+                                    android:textSize="15sp" />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_marginTop="20dp">
+
+                                <ImageView
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:padding="8dp"
+                                    android:src="@drawable/ic_mail"
+                                    android:background="@color/colorRegister"
+                                    />
+
+                                <EditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/edtEmail"
+                                    android:background="@color/editTextBG"
+                                    android:hint="Email"
+                                    android:inputType="textEmailAddress"
+                                    android:paddingLeft="20dp"
+                                    android:textSize="15sp" />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_marginTop="20dp">
+
+                                <ImageView
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/ic_pass"
+                                    android:background="@color/colorRegister"
+                                    android:padding="8dp" />
+
+                                <EditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/edtPassword"
+                                    android:background="@color/editTextBG"
+                                    android:hint="Password"
+                                    android:inputType="textPassword"
+                                    android:password="true"
+                                    android:paddingLeft="20dp"
+                                    android:textSize="15sp" />
+
+                            </LinearLayout>
+
+
+                            <Button
+                                android:id="@+id/btnRegister"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_marginBottom="20dp"
+                                android:background="@drawable/selecter_boder_login"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                android:text="登録"
+                                android:textColor="@drawable/selecter_color_login"
+                                android:textSize="@dimen/fontsize_title_widget"
+                                android:textStyle="bold"
+
+                                ></Button>
+                        </LinearLayout>
+                    </androidx.core.widget.NestedScrollView>
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

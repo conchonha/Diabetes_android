@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "887158420488",
+    "firebase_url": "https://taxiapp-4e1ca.firebaseio.com",
+    "project_id": "taxiapp-4e1ca",
+    "storage_bucket": "taxiapp-4e1ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887158420488:android:a6976fc8fa4b51b78b0dbd",
+        "android_client_info": {
+          "package_name": "com.example.diabetes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAx3NeLBCYHxHBonrDMADrda9NhVNgLW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887158420488:android:108a7ce9c30720b38b0dbd",
+        "android_client_info": {
+          "package_name": "com.example.taxiapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAx3NeLBCYHxHBonrDMADrda9NhVNgLW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

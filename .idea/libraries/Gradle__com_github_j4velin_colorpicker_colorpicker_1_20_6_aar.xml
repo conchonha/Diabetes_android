@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.j4velin.colorpicker:colorpicker:1.20.6@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fbea96d686dfbe2b0e78821f2d2acd60/jetified-colorpicker-1.20.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fbea96d686dfbe2b0e78821f2d2acd60/jetified-colorpicker-1.20.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fbea96d686dfbe2b0e78821f2d2acd60/jetified-colorpicker-1.20.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c140c0e412111826198d8de48eafd67/jetified-colorpicker-1.20.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c140c0e412111826198d8de48eafd67/jetified-colorpicker-1.20.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c140c0e412111826198d8de48eafd67/jetified-colorpicker-1.20.6/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.j4velin.colorpicker/colorpicker/1.20.6/46e0683c84b68c3d16de9a76d798587ebb82c367/colorpicker-1.20.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.j4velin.colorpicker/colorpicker/1.20.6/cd8b5bb2fa6b2988eb0029c291c5c164a5dd3b4b/colorpicker-1.20.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

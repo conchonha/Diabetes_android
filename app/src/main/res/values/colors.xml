@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#131313</color>
+    <color name="colorPrimary">#131313</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorGrey">#808080</color>
+    <color name="colorRegister">#131313</color>
+    <color name="editTextBG">#DADADA</color>
+    <color name="colorwhile">#fff</color>
+</resources>
+<!--<color name="colorPrimary">#6200EE</color>-->
+<!--<color name="colorRegister">#161C3E</color>-->

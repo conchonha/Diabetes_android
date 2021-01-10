@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:id="@+id/relivelayout1"
+        android:layout_height="270dp">
+
+        <TextView
+            android:id="@+id/toolbartaikhoan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="メニュー"
+            android:textColor="#fff"
+            android:textSize="@dimen/fontsize_appbar"
+            android:textStyle="bold" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            app:cardCornerRadius="50dp"
+            android:elevation="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/card"
+            app:cardElevation="10dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:id="@+id/imghinhusser"
+                android:src="@drawable/ic_user_confirm" />
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorwhile"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="admin"
+            android:id="@+id/txttenuser"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content"/>
+
+    </FrameLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/cart"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="-30dp"
+        android:layout_below="@+id/relivelayout1"
+        app:cardCornerRadius="10dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/relativeAcountMyprofile"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:src="@drawable/ic_account_manager"
+                    android:id="@+id/imghinhicon2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/imghinhicon2"
+                    android:gravity="center"
+                    android:text="プロフィール"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=">"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:textColor="#DDD2D2"
+                    android:textSize="25dp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#DDD2D2"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/imghinhicon2"
+                    android:layout_height="2dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/relivelayoutHelpsSupport"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:src="@drawable/ic_help"
+                    android:scaleType="fitXY"
+                    android:id="@+id/imghinhicon1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/imghinhicon1"
+                    android:gravity="center"
+                    android:text="ヘルプ。サポート"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=">"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:textColor="#DDD2D2"
+                    android:textSize="25dp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#DDD2D2"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/imghinhicon1"
+                    android:layout_height="2dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/reliveAbout"
+                android:padding="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:src="@drawable/ic_about"
+                    android:id="@+id/imghinhicon3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_toRightOf="@+id/imghinhicon3"
+                    android:layout_height="30dp"
+                    android:text="About"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=">"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:textColor="#DDD2D2"
+                    android:textSize="25dp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#DDD2D2"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/imghinhicon3"
+                    android:layout_height="2dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/relivelayoutdonhangdoitra"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:src="@drawable/ic_setting"
+                    android:id="@+id/imghinhicon4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/imghinhicon4"
+                    android:gravity="center"
+                    android:text="設定"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=">"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:textColor="#DDD2D2"
+                    android:textSize="25dp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#DDD2D2"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/imghinhicon4"
+                    android:layout_height="2dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/reliveLogout"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"                    android:src="@drawable/ic_logout"
+                    android:id="@+id/imghinhicon5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_toRightOf="@+id/imghinhicon5"
+                    android:gravity="center"
+                    android:text="ログアウト"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/cart"
+            android:layout_height="50dp">
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

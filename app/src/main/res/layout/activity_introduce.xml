@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/toolbarManagerUser"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="ヘルプ-サポート"
+            android:textColor="#fff"
+            android:textSize="@dimen/fontsize_appbar"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imgback"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_back"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="-20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:src="@drawable/img_splast"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:maxWidth="300dp"
+            android:padding="5dp"
+            android:text="医療アプリケーション"
+            android:textColor="#863131"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txttentrusogioithieu"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:maxWidth="300dp"
+            android:padding="5dp"
+            android:text="説明：患者の進行状況を追跡し、患者の日常生活と一致する結果を提案します"
+            android:textColor="#863131"
+            android:textSize="15dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/ic_call"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="電話番号: "
+                android:textColor="#000"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="08069627979"
+                android:textColor="#863131"
+                android:layout_marginLeft="5dp"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/ic_mail_den"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitXY"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Email: "
+                android:textColor="#000"
+                android:layout_marginBottom="10dp"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="binhxoanhd@gmail.com"
+                android:textColor="#863131"
+                android:layout_marginLeft="5dp"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/ic_web_site"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitXY"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Website: "
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="https://www.facebook.com/binhxoanhd"
+                android:textColor="#863131"
+                android:layout_marginLeft="5dp"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/ic_face"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitXY"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Fanpage: "
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="https://www.facebook.com/binhxoanhd"
+                android:textColor="#863131"
+                android:layout_marginLeft="5dp"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

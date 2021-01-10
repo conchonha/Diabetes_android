@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="5dp"
+        android:layout_height="250dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="パスワードを更新"
+                android:textColor="#fff"
+                android:textSize="@dimen/fontsize_title_widget" />
+
+            <EditText
+                android:id="@+id/txtNewPass"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:hint="新しいパスワード"
+                android:inputType="textPassword"
+                android:password="true"
+                android:textColor="#000"
+                android:textSize="@dimen/fontsize_edittext" />
+
+            <EditText
+                android:id="@+id/txtConfirmPass"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:hint="もう一度確認"
+                android:inputType="textPassword"
+                android:password="true"
+                android:textColor="#000"
+                android:textSize="@dimen/fontsize_edittext" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:clickable="true"
+                android:id="@+id/linearLayoutLogin"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/selecter_boder_login"
+                android:layout_marginTop="40dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="更新"
+                    android:textColor="@drawable/selecter_color_login"
+                    android:textSize="@dimen/fontsize_title_widget"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

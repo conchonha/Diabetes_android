@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/toolbarManagerUser"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="食事記録"
+            android:textColor="#fff"
+            android:textSize="@dimen/fontsize_appbar"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imgback"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_back"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_marginLeft="15dp"
+       android:layout_marginTop="50dp"
+       android:layout_marginRight="15dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="0dp"
+           android:layout_weight="8"
+           android:layout_height="wrap_content">
+
+           <EditText
+               android:id="@+id/edtNameFood"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="食事の名前" />
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content">
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/edt_gam"
+               android:text="15" />
+       </com.google.android.material.textfield.TextInputLayout>
+       <TextView
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="match_parent"
+           android:textSize="18dp"
+           android:textColor="#000"
+           android:layout_marginTop="10dp"
+           android:gravity="center|start"
+           android:text="g"/>
+   </LinearLayout>
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_marginRight="20dp"
+           android:layout_marginTop="20dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/txtTypeFood"
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:layout_marginLeft="20dp"
+               android:background="#000"
+               android:digits="0123456789"
+               android:gravity="center"
+               android:text="朝食"
+               android:textColor="#fff"
+               android:textSize="@dimen/fontsize_title_widget"
+               android:textStyle="bold" />
+           <ImageView
+               android:layout_width="wrap_content"
+               android:src="@drawable/ic_drop"
+               android:id="@+id/imgDrop"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:layout_marginRight="20dp"
+               android:layout_height="wrap_content"/>
+       </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp">
+
+        <FrameLayout
+            android:layout_width="125dp"
+            android:layout_height="140dp">
+
+            <ImageView
+                android:id="@+id/imgImageThucDon"
+                android:layout_width="101dp"
+                android:layout_height="102dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_food" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:text="写真を追加する"
+                android:textSize="16dp" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imgInserFood"
+            android:layout_width="74dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="100dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_food_add" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/linearLayoutAddFood"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/selecter_boder_login"
+        android:layout_marginTop="50dp"
+        >
+
+        <TextView
+            android:id="@+id/txtNameButtonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="記録する"
+            android:textColor="@drawable/selecter_color_login"
+            android:textSize="@dimen/fontsize_title_widget"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

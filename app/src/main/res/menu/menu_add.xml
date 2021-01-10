@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/idHaveBreakfast"
+        android:title="朝食" />
+    <item
+        android:id="@+id/idLunch"
+        android:title="昼食" />
+    <item
+        android:id="@+id/idDinner"
+        android:title="夕食" />
+    <item
+        android:id="@+id/idOther"
+        android:title="おすすめ" />
+</menu>

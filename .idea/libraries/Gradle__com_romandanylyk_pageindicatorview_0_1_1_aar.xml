@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.romandanylyk:pageindicatorview:0.1.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93067bd20933f9981f88735c96c8cf94/jetified-pageindicatorview-0.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93067bd20933f9981f88735c96c8cf94/jetified-pageindicatorview-0.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93067bd20933f9981f88735c96c8cf94/jetified-pageindicatorview-0.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/580e9b568e1e08f7a83c7b55dd869d67/jetified-pageindicatorview-0.1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/580e9b568e1e08f7a83c7b55dd869d67/jetified-pageindicatorview-0.1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/580e9b568e1e08f7a83c7b55dd869d67/jetified-pageindicatorview-0.1.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.romandanylyk/pageindicatorview/0.1.1/7944068b503ce9a5d70de320cf5d2047135c0b94/pageindicatorview-0.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.romandanylyk/pageindicatorview/0.1.1/e6533a0d6fb1ba64e239348431190adf1c3b8ae/pageindicatorview-0.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
