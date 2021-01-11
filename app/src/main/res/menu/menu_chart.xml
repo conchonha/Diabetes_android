@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/height"
+        android:title="Heights"/>
+    <item android:id="@+id/weights"
+        android:title="Weights"/>
+    <item android:id="@+id/boolPressure"
+        android:title="Bool Pressure"/>
+    <item android:id="@+id/bloodSugar"
+        android:title="Blood Sugar"/>
+    <item android:id="@+id/cpr"
+        android:title="CPR"/>
+    <item android:id="@+id/hdl"
+        android:title="HDL_C"/>
+</menu>
